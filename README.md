@@ -45,7 +45,6 @@ pip install -r requirements.txt
    jupyter notebook
    ```
    Then, open `audio_deepFake_detection.ipynb` and run all cells.
-```
 
 ## Results
 - XGBoost performed well in handling high-dimensional feature space and provided interpretability through feature importance.
