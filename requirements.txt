@@ -1,0 +1,9 @@
+librosa
+numpy
+scikit-learn
+xgboost
+pandas
+matplotlib
+seaborn
+ipykernel
+soundfile
