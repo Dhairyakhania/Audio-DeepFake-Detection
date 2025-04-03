@@ -49,9 +49,13 @@ pip install -r requirements.txt
 ## Results
 - XGBoost performed well in handling high-dimensional feature space and provided interpretability through feature importance.
 - SVM with RBF Kernel effectively captured complex feature distributions.
+- Grid Search on XGBoost improved accuracy by fine-tuning parameters through exhaustive search.
+- Random Search on SVM allowed for efficient hyperparameter tuning, leading to competitive results.
 - Feature extraction played a crucial role; missing values led to sample rejection.
 
 ## Future Improvements
+- Implementation of RawNet2: A deep learning-based approach specifically designed for raw audio-based spoof detection.
+- Implementation of AASIST: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks for enhanced deepfake detection.
 - Implement deep learning approaches (CNNs, RNNs) for better accuracy.
 - Expand feature set to include phase-based features.
 - Optimize hyperparameters for improved classification.
